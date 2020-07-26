@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+    The user variable within data describes a property that may be used within this layout.
+    -->
+    <data>
+
+        <variable
+            name="singleDepartment"
+            type="com.numny.mstarttask.database.models.DepartmentModel" />
+
+        <variable
+            name="presenter"
+            type="com.numny.mstarttask.ui.activity.DepartmentDetails" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/departements_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/department_name"
+            android:lines="4"
+            android:padding="5dp"
+            android:text="@{singleDepartment.name}" />
+
+        <Button
+            android:id="@+id/update_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="saveDepartemnt"
+            android:text="@string/update" />
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="deleteDepartemnt"
+            android:text="@string/delate" />
+    </LinearLayout>
+</layout>

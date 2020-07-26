@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">M>Start Task</string>
+    <string name="add_new_employee">Add new employee</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="save">Save</string>
+    <string name="createdon">Created On</string>
+    <string name="this_field_required">This Field Is Manditory</string>
+    <string name="added_successfully"> Added Successfully</string>
+    <string name="select_departemnt">Select Department</string>
+    <string name="employee_name">Employee Name</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="updated_successfully">Updated Successfully</string>
+
+    <array name="departments_names">
+        <item>Marketing</item>
+        <item>Human Resource Management</item>
+        <item>Finance</item>
+        <item>Content</item>
+        <item>Accounting and Finance</item>
+        <item>Information Technology</item>
+        <item>Management</item>
+    </array>
+
+    <string name="secret_password">mStart@123</string>
+    <string name="invalid_mobile_number">Invalid Mobile Number</string>
+    <string name="developerd_by"><![CDATA[Developed by @MStart>]]></string>
+    <string name="departemnt">Departemnts</string>
+    <string name="employees">Employees</string>
+    <string name="you_should_add_dapartments_first">You Must Add At Least On Departmnet First</string>
+    <string name="update">Update</string>
+    <string name="action_add">Action Add</string>
+    <string name="department_name">Department Name</string>
+    <string name="delate">Delete</string>
+    <string name="deleted_succuessfully">Deleted Successfully</string>
+</resources>
