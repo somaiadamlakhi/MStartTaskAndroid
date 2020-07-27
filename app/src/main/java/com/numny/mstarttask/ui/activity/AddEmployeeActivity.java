@@ -170,7 +170,7 @@ public class AddEmployeeActivity extends BaseActivity<EmployeeViewModel> impleme
     }
 
     private void phoneValidty() {
-        email_et.addTextChangedListener(new TextWatcher() {
+        mobile_number_et.addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
 
